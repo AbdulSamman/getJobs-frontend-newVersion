@@ -1,0 +1,81 @@
+body {
+  background-color: #333;
+  color: #aaa;
+  padding: 0 1rem;
+  font-family: sans-serif;
+  h1 {
+    color: gold;
+  }
+  nav {
+    background-color: #222;
+    padding: 0.5rem;
+
+    a {
+      text-decoration: none;
+      margin-right: 0.5rem;
+      color: #aaa;
+    }
+    a.active {
+      color: rgb(237, 237, 109);
+    }
+  }
+  .pageJobs {
+    .jobs {
+      .job {
+        background-color: #222;
+        padding: 1rem;
+        margin-bottom: 1rem;
+
+        div {
+          margin-bottom: 0.5rem;
+        }
+
+        .title {
+          a {
+            color: rgb(233, 180, 82);
+            font-size: 1.5rem;
+          }
+        }
+
+        .company {
+          color: rgb(218, 136, 73);
+        }
+
+        .description {
+          font-style: italic;
+          color: #999;
+          text-align: justify;
+        }
+
+        .skills,
+        .publicationDate {
+          font-family: "Courier New", Courier, monospace;
+          background-color: #111;
+          color: tomato;
+          width: fit-content;
+          padding: 0.5rem;
+          border-radius: 0.4rem;
+        }
+
+        .publicationDate {
+          color: greenyellow;
+        }
+      }
+    }
+  }
+  .pageSkills {
+    .skills {
+      .skill {
+        background-color: #222;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        .skillName {
+          color: tomato;
+        }
+        a {
+          color: rgb(239, 239, 97);
+        }
+      }
+    }
+  }
+}
