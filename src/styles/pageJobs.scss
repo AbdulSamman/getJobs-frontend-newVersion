@@ -1,0 +1,70 @@
+.pageJobs {
+  .jobs {
+    .job {
+      background-color: #222;
+      padding: 1rem;
+      margin-bottom: 1rem;
+
+      div {
+        margin-bottom: 0.5rem;
+      }
+
+      .title {
+        a {
+          color: rgb(233, 180, 82);
+          font-size: 1.5rem;
+        }
+      }
+
+      .company {
+        color: rgb(218, 136, 73);
+      }
+
+      .description {
+        font-style: italic;
+        color: #999;
+        text-align: justify;
+      }
+
+      .skillList,
+      .publicationDate {
+        font-family: "Courier New", Courier, monospace;
+        background-color: #111;
+        color: tomato;
+        width: fit-content;
+        padding: 0.5rem;
+        border-radius: 0.4rem;
+      }
+
+      .publicationDate {
+        color: greenyellow;
+      }
+      .skills {
+        a {
+          color: yellowgreen;
+          text-decoration: none;
+        }
+        .found {
+          padding: 10px;
+          background-color: #111;
+          a {
+            color: rgb(99, 255, 47);
+          }
+          .name {
+            color: green;
+          }
+        }
+      }
+      .missing {
+        padding: 10px;
+        background-color: #111;
+        a {
+          color: tomato;
+        }
+        .name {
+          color: red;
+        }
+      }
+    }
+  }
+}
