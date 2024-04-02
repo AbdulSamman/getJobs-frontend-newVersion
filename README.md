@@ -29,3 +29,5 @@ In der Lösung mit Arrays werden die Daten in einer Liste oder einem Array gespe
 
 In der Lösung mit Objekten werden die Daten in einem Objekt gespeichert, wobei jeder Eintrag einem eindeutigen Schlüssel zugeordnet ist. Dies kann nützlich sein, wenn die Daten in eine Zuordnung von Schlüssel-Wert-Paaren organisiert sind.
 
+![getJobs-newVersion](https://github.com/AbdulSamman/getJobs-frontend-newVersion/assets/97021586/08116b75-f530-4152-bf5e-83e88b7ee8a1)
+
